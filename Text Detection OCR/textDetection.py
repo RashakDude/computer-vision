@@ -1,5 +1,5 @@
 # Import the main libraries used in the project
-import cv2
+from cv2 import cv2
 import pytesseract
 
 # Reading an image
