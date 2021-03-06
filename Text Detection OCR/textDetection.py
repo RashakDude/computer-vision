@@ -32,7 +32,7 @@ for box in boxes.splitlines():
     box = box.split(' ')
     x = int(box[1])
     y = int(box[2])
-    cv2.putText(img, box[0], (x,height-y+75), cv2.FONT_HERSHEY_COMPLEX, 2, (50,50,255), 1)
+    cv2.putText(img, box[0], (x,height-y+30), cv2.FONT_HERSHEY_COMPLEX, 1, (50,50,255), 1)
 
 # Loading the image
 cv2.imshow('Result', img)
